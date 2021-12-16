@@ -358,3 +358,289 @@ h1{
 .seatch-img{
     margin-bottom: 20px;
 }
+
+#booking{
+    background-color: #F2EFE6;
+    padding: 114px 130px 124px;
+}
+
+.booking-title{
+    font-family: "Recoleta", serif;
+    font-weight: 600;
+    font-size: 47px;
+    line-height: 54px;
+    text-align: center;
+    color: #163A24;
+    margin-bottom: 26px;
+}
+
+.booking-desc{
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #163A24;
+    margin-bottom: 18px;
+}
+
+.booking-list{
+    width: 1180px;
+    list-style-type: none;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.booking-list-item{
+    width: 393px;
+    display: flex;
+    align-items: center;
+}
+
+.booking-item-text{
+    width: 262px;
+    margin-right: 28px;
+}
+
+.item-desc{
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #163A24;
+    margin-bottom: 13px;
+}
+
+.item-desc-time{
+    font-family: "Recoleta", serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 31px;
+    text-align: center;
+    color: #163A24;
+}
+
+.booking-item-img{
+    margin-right: 28px;
+}
+
+.seperate{
+    margin-right: 51px;
+}
+
+#book{
+    padding: 120px 130px;
+}
+
+.book-intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 99px 15px 98px;
+}
+
+.book-info{
+    width: 393px;
+}
+
+.book-title{
+    font-family: "Recoleta", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+    margin-bottom: 25px;
+}
+
+.book-desc{
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+    margin-bottom: 19px;
+}
+
+.book-link{
+    font-size: 16px;
+    line-height: 22px;
+    color: #FBFAF7;
+    background: #198C36;
+    border-radius: 160px;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: block;
+    width: 191px;
+}
+
+#get-started{
+    background: #163A24;
+    padding: 114px 124px;
+    background-image: url(/images/back-img-one.svg);
+    background-repeat: no-repeat;
+}
+
+.started-title{
+    font-family: "Recoleta", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #FBFAF7;
+    margin-bottom: 26px;
+}
+
+.started-desc{
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FBFAF7;
+    margin-bottom: 18px;
+}
+
+.started-link{
+    display: block;
+    width: 258px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #163A24;
+    background: #FAB5A0;
+    border-radius: 160px;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+#sign-up{
+    background: #F2EFE6;
+    padding: 60px 130px;
+}
+
+.sign-up-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up-title{
+    width: 590px;
+    font-family: "Recoleta", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+    margin-bottom: 26px;
+}
+
+.sign-up-desc{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+}
+
+.site-form{
+    margin-bottom: 15px;
+}
+
+.form-input{
+    width: 470px;
+    height: 54px;
+    background: #FFFFFF;
+    border: 1px solid #F2EFE6;
+    border-radius: 255px;
+}
+
+.form-link{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FBFAF7;
+    background: #15762E;
+    border-radius: 160px;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+.form-text{
+    font-size: 14px;
+    line-height: 21px;
+    color: #163A24;
+}
+.policy{
+    font-size: 14px;
+    line-height: 21px;
+    color: #198C36;
+    text-decoration: none;
+}
+
+.site-footer{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.logo-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    margin-bottom: 20px;
+}
+
+.footer-info{
+    font-family: "Recoleta", serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #163A24;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.footer-item{
+    margin-right: 14px;
+}
+
+.not-margin{
+    margin-right: 0;
+}
+
+.footer-line{
+    background: #F2EFE6;
+    border: none;
+    height: 1px;
+    margin-bottom: 11px;
+}
+
+.nav-bar-footer{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-footer-text{
+    font-size: 14px;
+    line-height: 21px;
+    color: #163A24;
+}
+
+.footer-nav-list{
+    width: 403px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav-link{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 19px;
+    color: #198C36;
+}
