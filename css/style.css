@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('/fonts/NotoSans.woff2') format('woff2'),
+        url('/fonts/NotoSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('/fonts/Recoleta-SemiBold.woff2') format('woff2'),
+        url('/fonts/Recoleta-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('/fonts/Recoleta-SemiBold.woff2') format('woff2'),
+        url('/fonts/Recoleta-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "NotoSans", "Arial", sans-serif;
+}
+
+#hero{
+    background-color: #163A24;
+}
+
+h1{
+    display: none;
+}
+
+.site-header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container{
+    width: 1180px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-intro{
+    display: flex;
+    align-items: center;
+}
+
+.header-logo{
+    margin-right: 676px;
+}
+
+.logo-img{
+    width: 153px;
+    height: 58px;
+}
+
+.header-info{
+    width: 341px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    color: #FBFAF7;
+}
+
+.header-link{
+    padding: 15px 25px;
+    background: #198C36;
+    border-radius: 160px;
+    text-decoration: none;
+}
+
+.hero-content{
+    display: flex;
+    align-items: center;
+}
+
+.hero-info{
+    width: 492px;
+}
+
+.hero-img{
+    margin-right: -80px;
+}
+
+.hero-title{
+    font-family: "Recoleta", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FBFAF7;
+    margin-bottom: 18px;
+}
+
+.hero-text{
+    font-size: 18px;
+    line-height: 27px;
+    color: #FBFAF7;
+}
+
+#main-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.main-img-girl{
+    margin-right: 98px;
+}
+
+.main-title{
+    font-family: "Recoleta", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+    margin-bottom: 27px;
+}
+
+.main-desc{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+}
+
+.reverse-content{
+    flex-direction: row-reverse;
+}
+
+.main-text-boy{
+    margin-right: 98px;
+}
+
+.main-partners{
+    padding-top: 113px;
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.partners-title{
+    font-family: "Recoleta", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #163A24;
+    margin-bottom: 66px;
+}
+
+.partners-list{
+    list-style: none;
+    width: 983px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hr-production{
+    background-color: #163A24;
+    padding: 66px 130px 120px;
+}
+
+.hr-title{
+    font-family: "Recoleta", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #FBFAF7;
+    margin-bottom: 74px;
+}
+
+.hr-list{
+    width: 1180px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hr-item{
+    width: 295px;
+    text-align: center; 
+}
+
+.hr-img{
+    margin-bottom: 28px;
+}
+
+.item-text{
+    font-size: 18px;
+    line-height: 27px;
+    color: #FBFAF7;
+}
+
+#employees{
+    padding: 120px 130px 135px;
+    background-color: #F2EFE6;
+}
+
+.employee-info{
+    width: 787px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.employees-title{
+    font-family: "Recoleta", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #163A24;
+    margin-bottom: 27px;
+}
+
+.employees-text{
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #163A24;
+}
+
+.people-img{
+   width: 1180px;
+   height: 335px;
+   margin-top: -15px;
+}
